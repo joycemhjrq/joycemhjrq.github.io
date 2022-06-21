@@ -1,3 +1,6 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+markdown: rdiscount
+permalink: /:year:month:day-:title/
+url: http://joycemhjrq.github.io
+author: Joyce
+pygments: true
+paginate: 24
