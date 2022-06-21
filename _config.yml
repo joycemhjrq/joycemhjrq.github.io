@@ -4,3 +4,5 @@ url: http://joycemhjrq.github.io
 author: Joyce
 pygments: true
 paginate: 24
+
+theme: jekyll-theme-minimal
