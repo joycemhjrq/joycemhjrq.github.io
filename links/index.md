@@ -4,5 +4,5 @@ layout: page
 comments: yes
 ---
 
-暂无
+https://docs.github.com/cn/pages/quickstart
 
