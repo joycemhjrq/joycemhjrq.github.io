@@ -4,13 +4,13 @@ layout: page
 ---
 
 <div id='tag_cloud'>
-{% for cat in site.classification %}
+{% for cat in site.categories %}
 <a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }}<span>({{ cat[1].size }})</span></a>
 {% endfor %}
-</div>
+</div> 
 
 <ul class="listing">
-{% for cat in site.classification %}
+{% for cat in site.categories %}
   <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
 {% for post in cat[1] %}
   <li class="listing-item">
